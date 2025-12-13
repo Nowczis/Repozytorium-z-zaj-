@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container flex row border open-sans-400">
+        <aside class="sidebar border">
+            <div class="dashboard-title">
+                <img src="img/logo.png" alt="" class="logo">
+                <div class="title">
+                    <h2>Dashboard</h2>
+                </div>
+            </div>
+            
+            <nav class="main-menu flex start">
+                <!-- ul.main-menu-inner>li.main-menu-item*4>a -->
+                <ul class="main-menu-inner flex column">
+                    <li class="main-menu-item flex row"><i class="fa-regular fa-house"></i><a href="">Główna</a></li>
+                    <li class="main-menu-item flex row"><i class="fa-solid fa-chart-area"></i><a href="">Statystyki</a></li>
+                    <li class="main-menu-item flex row"><i class="fa-regular fa-calendar"></i><a href="">Kalendarz</a></li>
+                    <li class="main-menu-item flex row"><i class="fa-solid fa-gear"></i><a href="">Ustawienia</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="content border">
+            <header class="welcome flex row border">
+                <h1 class="title">Witaj ponownie</h1>
+                <button><i>X</i></button>
+            </header>
+            
+            <div class="stats">
+                <div class="stats-item flex row border">
+                    <h2 class="border">Użytkownicy</h2>
+                    <p class="border">932</p>
+                </div>
+                <div class="stats-item flex row border">
+                    <h2 class="border">Sprzedaż</h2>
+                    <p class="border">1.287</p>
+                </div>
+                <div class="stats-item flex row border">
+                    <h2 class="border">Powiadomienia</h2>
+                    <p class="border">5</p>
+                </div>
+            </div>
+            <div class="notes">
+                <h2>Notatki</h2>
+            </div>
+            <div class="test">
+                <p class="dziecko">Jakiś tekst</p>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

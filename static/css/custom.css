@@ -1,0 +1,54 @@
+.border {
+    border: 1px solid #000;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1024px;
+}
+.content {
+    width: 70%;
+    min-height: 300px;
+}
+.sidebar {
+    width: 30%;
+    min-height: 300px;
+}
+.logo {
+    height: auto;
+    max-width: 60%;
+    margin: 0 auto;
+    display: block;
+}
+.stats-item {
+    height: 50px;
+}
+.stats-item p,
+.stats-item h2 {
+    width: 200px;
+}
+.stats-item p {
+    text-align: right;
+}
+.stats-item h2 {
+    text-align: left;
+}
+.dashboard-title {
+    margin-bottom: 40px;
+}
+.title {
+    text-align: center;
+}
+.main-menu-inner {
+    width: 100%;
+}
+.main-menu-item a {
+    width: 70%;
+    text-decoration: none;
+    color: #000;
+}
+.main-menu-item i {
+    width: 30%;
+}
+.main-menu-item {
+    padding: 10px 0;
+}
