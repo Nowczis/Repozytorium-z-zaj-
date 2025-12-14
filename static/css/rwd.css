@@ -1,40 +1,42 @@
-@media (max-width: 992px) {
+/*małe urządzenia*/
+@media (max-width: 576px) {}
 
-}
+/*telefony*/
+@media (min-width: 576px) {}
 
-/* Małe urządzenia */
-@media (max-width: 576px) {
-
-}
-
-/* Telefony */
+/*telefony*/
 @media (max-width: 768px) {
-    .container{
+    .container {
         flex-direction: column;
     }
+
     .content,
     .sidebar {
-        width 100%;
+        width: 100%;
     }
+
     .mobile {
         display: flex;
     }
-    .desktop {
+
+    desktop {
         display: none;
     }
 }
 
-/* Tablety i duże telefony */
-@media (max-width: 768px) {
+/*tablety i duże telefony*/
+@media (min-width: 768px) {
+    .mobile {
+        display: none;
+    }
 
+    .desktop {
+        display: flex;
+    }
 }
 
-/* Małe ekrany i laptopy */
-@media (min-width: 992px) {
+/*małe ekrany i laptopy*/
+@media (min-width: 992px) {}
 
-}
-
-/* Dla dużego desktopa lub TV */
-@media (min-width: 1200px) {
-
-}
+/*duży desktop lub tv*/
+@media (min-width: 1200px) {}
